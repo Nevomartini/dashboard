@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply py-1 border-none outline-none selection:bg-gray-900 selection:text-gray-100;
+  }
+  .smooth {
+    @apply transition duration-200 ease-in-out;
+  }
+  .btn {
+    @apply border border-black rounded-md cursor-pointer hover:bg-gray-900 hover:text-gray-100;
+  }
+}
